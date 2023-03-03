@@ -361,7 +361,7 @@ app.layout = html.Div(
 
 
 if __name__ == '__main__':
-   app.run_server(debug=True, host="34.232.65.132")
+   app.run_server(debug=True, host='0.0.0.0')
 
   # dbc.Col(
   ##     dcc.Graph(
